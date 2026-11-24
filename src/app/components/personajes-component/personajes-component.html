@@ -1,0 +1,23 @@
+<h1>Personajes de Pixar</h1>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Imagen</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @for (personaje of personajes; track personaje.idPersonaje) {
+            <tr>
+                <td>{{personaje.idPersonaje}}</td>
+                <td>{{personaje.nombre}}</td>
+                <td>
+                    <img [src]="personaje.imagen" width="100">
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

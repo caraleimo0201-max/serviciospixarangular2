@@ -1,0 +1,59 @@
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #071b36, #164b87, #2563eb);
+    border-radius: 20px;
+    color: white;
+    min-height: 550px;
+}
+
+.etiqueta {
+    display: inline-block;
+    background-color: #facc15;
+    color: #172554;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.home h1 {
+    font-size: clamp(32px, 6vw, 55px);
+    font-weight: 900;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    color: #dbeafe;
+    font-size: 19px;
+    max-width: 650px;
+    margin: 15px auto;
+}
+
+.imagen-pixar {
+    width: 100%;
+    max-width: 850px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 20px;
+    margin: 25px auto;
+    box-shadow: 0 10px 30px #00000050;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.home .footer-home {
+    margin-top: 40px;
+    font-size: 13px;
+    color: #bfdbfe;
+    letter-spacing: 2px;
+}
